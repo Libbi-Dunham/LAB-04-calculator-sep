@@ -34,3 +34,21 @@ subButton.addEventListener('click', ()=>{
     subAnswer.textContent = result;
 }); 
 
+
+import { div } from './calculations.js';
+console.log(div);
+
+const divInput1 = document.getElementById('div-input-1');
+const divInput2 = document.getElementById('div-input-2');
+const divButton = document.getElementById('div-btn');
+const divAnswer = document.getElementById('div-answer');
+
+console.log(divInput1, divInput2, divButton, divAnswer);
+
+divButton.addEventListener('click', ()=>{
+    const value1 = Number(divInput1.value);
+    const value2 = Number(divInput2.value);
+    const result = div(value1, value2);
+    console.log(result);
+    divAnswer.textContent = result;
+}); 
