@@ -52,3 +52,21 @@ divButton.addEventListener('click', ()=>{
     console.log(result);
     divAnswer.textContent = result;
 }); 
+
+import { mul } from './calculations.js';
+console.log(mul);
+
+const mulInput1 = document.getElementById('mul-input-1');
+const mulInput2 = document.getElementById('mul-input-2');
+const mulButton = document.getElementById('mul-btn');
+const mulAnswer = document.getElementById('mul-answer');
+
+console.log(mulInput1, mulInput2, mulButton, mulAnswer);
+
+mulButton.addEventListener('click', ()=>{
+    const value1 = Number(mulInput1.value);
+    const value2 = Number(mulInput2.value);
+    const result = mul(value1, value2);
+    console.log(result);
+    mulAnswer.textContent = result;
+}); 
