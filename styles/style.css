@@ -4,24 +4,47 @@ main {
     justify-content: center;
     width: 100%;
     margin: 20px;
+    text-align: center;
 }
+
 .calculation {
     border: 1px solid black;
     padding: 20px;
+    font-family: 'Nosifer', cursive;
+    background-color: #820263;
 }
 
 .calculation2 {
     border: 1px solid black;
     padding: 20px;
+    font-family: 'Nosifer', cursive;
+    color: #33CA7F;
+    background-color: #1B2021;
+
 
 }
 
 .calculation3 {
     border: 1px solid black;
     padding: 20px;
+    font-family: 'Nosifer', cursive;
+    background-color: #820263;
 }
 
 .calculation4 {
     border: 1px solid black;
     padding: 20px;
+    font-family: 'Nosifer', cursive;
+    color: #33CA7F;
+    background-color: #1B2021;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+}
+
+body{
+    background-image: url('../assets/spooky2.jpg');
+
 }
