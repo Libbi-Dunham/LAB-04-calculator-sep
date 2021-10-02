@@ -55,3 +55,7 @@ body{
     background-color: orange;
     border-radius: 5px;
 }
+
+input {
+    background-color: #D3FFF3;
+}
