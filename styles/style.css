@@ -50,3 +50,8 @@ body{
     background-image: url('../assets/spooky2.jpg');
 
 }
+
+.btn {
+    background-color: orange;
+    border-radius: 5px;
+}

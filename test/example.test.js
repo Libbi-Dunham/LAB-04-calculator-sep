@@ -29,3 +29,37 @@ test('mul function', (expect) => {
 
 });
 
+test('add function', (expect) => {
+    const input1 = 10;
+    const input2 = 5;
+    const expected = 15;
+
+    const actual = add(input1, input2);
+
+    expect.equal(actual, expected);
+
+});
+
+test('sub function', (expect) => {
+    const input1 = 10;
+    const input2 = 5;
+    const expected = 5;
+
+    const actual = sub(input1, input2);
+
+    expect.equal(actual, expected);
+
+});
+
+test('div function', (expect) => {
+    const input1 = 10;
+    const input2 = 5;
+    const expected = 2;
+
+    const actual = div(input1, input2);
+
+    expect.equal(actual, expected);
+
+});
+
+
